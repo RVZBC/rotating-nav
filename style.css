@@ -14,12 +14,12 @@ body {
 }
 
 .container {
-    background-color: #fafafa;
+    background-color: white;
     transform-origin: top left;
     transition: transform 0.5s linear;
     width: 100vw;
     min-height: 100vh;
-    padding: 50px;
+    padding: 50px;    
 }
 
 .container.show-nav {
@@ -33,7 +33,7 @@ body {
 }
 
 .circle {
-    background-color: #ff7979;
+    background-color: #441fe6;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -119,7 +119,8 @@ nav ul li + li + li {
     margin: 50px auto;
 }
 
-.content h1 {    
+.content h1 {
+    margin: 0;
 }
 
 .content small {
@@ -130,4 +131,13 @@ nav ul li + li + li {
 .content p {
     color: #333;
     line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    color: #333;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
